@@ -29,6 +29,7 @@ module.exports = {
     'no-autofocus': require('./rules/no-autofocus'),
     'no-distracting-elements': require('./rules/no-distracting-elements'),
     'no-interactive-element-to-noninteractive-role': require('./rules/no-interactive-element-to-noninteractive-role'),
+    'no-interactive-element-without-id-classname': require('./rules/no-interactive-element-without-id-classname'),
     'no-noninteractive-element-interactions': require('./rules/no-noninteractive-element-interactions'),
     'no-noninteractive-element-to-interactive-role': require('./rules/no-noninteractive-element-to-interactive-role'),
     'no-noninteractive-tabindex': require('./rules/no-noninteractive-tabindex'),
@@ -115,6 +116,9 @@ module.exports = {
         'jsx-a11y/no-access-key': 'error',
         'jsx-a11y/no-autofocus': 'error',
         'jsx-a11y/no-distracting-elements': 'error',
+        'jsx-a11y/no-interactive-element-without-id-classname': [
+          'error',
+        ],
         'jsx-a11y/no-interactive-element-to-noninteractive-role': [
           'error',
           {
@@ -273,6 +277,7 @@ module.exports = {
         'jsx-a11y/no-autofocus': 'error',
         'jsx-a11y/no-distracting-elements': 'error',
         'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
+        'jsx-a11y/no-interactive-element-without-id-classname': 'error',
         'jsx-a11y/no-noninteractive-element-interactions': [
           'error',
           {
