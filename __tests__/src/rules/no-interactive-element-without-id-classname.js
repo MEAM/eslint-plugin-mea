@@ -25,6 +25,8 @@ const expectedError = 'Interactive elements should have either an id or classNam
 const alwaysValid = [
   { code: '<TestComponent id="id-value" onClick={doFoo} />' },
   { code: '<TestComponent id="id" onClick={doFoo} />' },
+  { code: '<TestComponent id={bar} onClick={doFoo} />' },
+  { code: '<TestComponent {...props} onClick={doFoo} />' },
   { code: '<TestComponent className="classNameValue" onClick={doFoo} />' },
 ];
 

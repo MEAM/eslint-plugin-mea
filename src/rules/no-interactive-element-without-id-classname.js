@@ -48,7 +48,17 @@ export default ({
             return true;
           }
           const { name: { name }, value } = attr;
-          return ['id', 'className'].includes(name) && value && value.raw && value.raw.length > 2;
+
+          if (!['id', 'className'].includes(name)) {
+            return false;
+          }
+
+          if (!value) {
+            return false;
+          }
+
+          const [start, end] = value.range;
+          return end - start > 2;
         });
 
       if (otherAttributes.length === 0) {

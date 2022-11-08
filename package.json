@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-mea",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Static AST checker for accessibility rules on JSX elements for MEA.",
   "keywords": [
     "eslint",
