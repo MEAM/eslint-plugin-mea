@@ -28,7 +28,7 @@ const expectedError = {
   type: 'JSXAttribute',
 };
 
-const ruleName = 'jsx-a11y/no-noninteractive-element-to-interactive-role';
+const ruleName = 'mea/no-noninteractive-element-to-interactive-role';
 
 const componentsSettings = {
   'jsx-a11y': {

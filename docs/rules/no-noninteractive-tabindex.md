@@ -1,4 +1,4 @@
-# jsx-a11y/no-noninteractive-tabindex
+# mea/no-noninteractive-tabindex
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -64,7 +64,7 @@ If you know that a particular element will be scrollable, you might want to add 
 The recommended options for this rule allow `tabIndex` on elements with the noninteractive `tabpanel` role. Adding `tabIndex` to a tabpanel is a recommended practice in some instances.
 
 ```javascript
-'jsx-a11y/no-noninteractive-tabindex': [
+'mea/no-noninteractive-tabindex': [
   'error',
   {
     tags: [],

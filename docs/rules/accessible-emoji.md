@@ -1,4 +1,4 @@
-# jsx-a11y/accessible-emoji
+# mea/accessible-emoji
 
 ❌ This rule is deprecated.
 

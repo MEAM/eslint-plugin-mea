@@ -1,4 +1,4 @@
-# jsx-a11y/control-has-associated-label
+# mea/control-has-associated-label
 
 💼 This rule is _disabled_ in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -61,7 +61,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
   "rules": {
-    "jsx-a11y/control-has-associated-label": [ 2, {
+    "mea/control-has-associated-label": [ 2, {
       "labelAttributes": ["label"],
       "controlComponents": ["CustomComponent"],
       "ignoreElements": [

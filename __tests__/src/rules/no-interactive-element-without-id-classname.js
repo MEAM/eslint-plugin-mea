@@ -19,7 +19,7 @@ import ruleOptionsMapperFactory from '../../__util__/ruleOptionsMapperFactory';
 // -----------------------------------------------------------------------------
 const ruleTester = new RuleTester();
 
-const ruleName = 'jsx-a11y/no-interactive-element-without-id-classname';
+const ruleName = 'mea/no-interactive-element-without-id-classname';
 const expectedError = 'Interactive elements should have either an id or className attribute.';
 
 const alwaysValid = [

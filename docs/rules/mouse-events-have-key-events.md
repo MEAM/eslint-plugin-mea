@@ -1,4 +1,4 @@
-# jsx-a11y/mouse-events-have-key-events
+# mea/mouse-events-have-key-events
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

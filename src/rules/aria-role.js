@@ -33,7 +33,7 @@ const validRoles = new Set([...roles.keys()].filter((role) => roles.get(role).ab
 export default {
   meta: {
     docs: {
-      url: 'https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/HEAD/docs/rules/aria-role.md',
+      url: 'https://github.com/jsx-eslint/eslint-plugin-mea/tree/HEAD/docs/rules/aria-role.md',
       description: 'Enforce that elements with ARIA roles must use a valid, non-abstract ARIA role.',
     },
     schema: [schema],

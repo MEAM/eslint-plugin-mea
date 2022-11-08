@@ -58,7 +58,7 @@ const neverValid = [
 ];
 
 const recommendedOptions = (
-  configs.recommended.rules[`jsx-a11y/${ruleName}`][1] || {}
+  configs.recommended.rules[`mea/${ruleName}`][1] || {}
 );
 
 ruleTester.run(`${ruleName}:recommended`, rule, {

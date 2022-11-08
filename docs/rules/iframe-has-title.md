@@ -1,4 +1,4 @@
-# jsx-a11y/iframe-has-title
+# mea/iframe-has-title
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

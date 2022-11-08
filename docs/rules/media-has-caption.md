@@ -1,4 +1,4 @@
-# jsx-a11y/media-has-caption
+# mea/media-has-caption
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -15,7 +15,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/media-has-caption": [ 2, {
+        "mea/media-has-caption": [ 2, {
             "audio": [ "Audio" ],
             "video": [ "Video" ],
             "track": [ "Track" ],

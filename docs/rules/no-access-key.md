@@ -1,4 +1,4 @@
-# jsx-a11y/no-access-key
+# mea/no-access-key
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

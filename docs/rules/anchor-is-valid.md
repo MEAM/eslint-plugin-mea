@@ -1,4 +1,4 @@
-# jsx-a11y/anchor-is-valid
+# mea/anchor-is-valid
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -105,11 +105,11 @@ In the example immediately above an `onClick` event handler was added to provide
 
 ### Case: I use Next.js and I'm getting this error inside of `<Link>`s
 
-This is a [known issue](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/402) with Next.js's decision to construct internal links by nesting an href-free `<a>` tag inside of a `<Link>` component. Next.js is also [aware of the issue](https://github.com/vercel/next.js/issues/5533) and has an [RFC](https://github.com/vercel/next.js/discussions/8207) working towards a solution.
+This is a [known issue](https://github.com/jsx-eslint/eslint-plugin-mea/issues/402) with Next.js's decision to construct internal links by nesting an href-free `<a>` tag inside of a `<Link>` component. Next.js is also [aware of the issue](https://github.com/vercel/next.js/issues/5533) and has an [RFC](https://github.com/vercel/next.js/discussions/8207) working towards a solution.
 
 Until the Next.js API can be updated to a more performant and standard setup, you have a few workaround options:
 
-1. If you have only a few `Link`s, or they're clustered in just a few files like `nav.tsx`, you can use disable macros like `{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}` to turn off validation of this rule for those usages.
+1. If you have only a few `Link`s, or they're clustered in just a few files like `nav.tsx`, you can use disable macros like `{/* eslint-disable-next-line mea/anchor-is-valid */}` to turn off validation of this rule for those usages.
 
 2. You can use the `Link` component's `passHref` prop to override a dummy `href` on the `<a>`:
 ```typescript
@@ -170,7 +170,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
   "rules": {
-    "jsx-a11y/anchor-is-valid": [
+    "mea/anchor-is-valid": [
       "error",
       {
         "components": ["Link"],

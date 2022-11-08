@@ -1,4 +1,4 @@
-# jsx-a11y/alt-text
+# mea/alt-text
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -43,7 +43,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/alt-text": [ 2, {
+        "mea/alt-text": [ 2, {
             "elements": [ "img", "object", "area", "input[type=\"image\"]" ],
             "img": ["Image"],
             "object": ["Object"],

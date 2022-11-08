@@ -1,4 +1,4 @@
-# jsx-a11y/tabindex-no-positive
+# mea/tabindex-no-positive
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

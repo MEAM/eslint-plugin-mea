@@ -1,4 +1,4 @@
-# jsx-a11y/no-distracting-elements
+# mea/no-distracting-elements
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/no-distracting-elements": [ 2, {
+        "mea/no-distracting-elements": [ 2, {
             "elements": [ "marquee", "blink" ],
           }],
     }

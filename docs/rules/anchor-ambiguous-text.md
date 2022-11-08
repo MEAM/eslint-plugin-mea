@@ -1,4 +1,4 @@
-# jsx-a11y/anchor-ambiguous-text
+# mea/anchor-ambiguous-text
 
 ☑️ This rule is _disabled_ in the `recommended` config.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument with the parameter `words`.
 ```json
 {
   "rules": {
-    "jsx-a11y/anchor-ambiguous-text": [2, {
+    "mea/anchor-ambiguous-text": [2, {
       "words": ["click this"],
     }],
   }

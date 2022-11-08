@@ -1,4 +1,4 @@
-# jsx-a11y/lang
+# mea/lang
 
 <!-- end auto-generated rule header -->
 

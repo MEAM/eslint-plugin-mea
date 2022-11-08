@@ -32,7 +32,7 @@ const domElements = [...dom.keys()];
 export default ({
   meta: {
     docs: {
-      url: 'https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/HEAD/docs/rules/no-interactive-element-to-noninteractive-role.md',
+      url: 'https://github.com/jsx-eslint/eslint-plugin-mea/tree/HEAD/docs/rules/no-interactive-element-to-noninteractive-role.md',
       description: 'Interactive elements should not be assigned non-interactive roles.',
     },
     schema: [{

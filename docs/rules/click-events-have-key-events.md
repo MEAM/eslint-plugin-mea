@@ -1,4 +1,4 @@
-# jsx-a11y/click-events-have-key-events
+# mea/click-events-have-key-events
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

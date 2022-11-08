@@ -1,4 +1,4 @@
-# jsx-a11y/no-noninteractive-element-interactions
+# mea/no-noninteractive-element-interactions
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -98,7 +98,7 @@ You can also put the interactive content inside the grid cell. This maintains th
 You may configure which handler props should be taken into account when applying this rule. The recommended configuration includes the following 6 handlers.
 
 ```javascript
-'jsx-a11y/no-noninteractive-element-interactions': [
+'mea/no-noninteractive-element-interactions': [
   'error',
   {
     handlers: [

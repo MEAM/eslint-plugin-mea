@@ -48,9 +48,9 @@ const componentsSettings = {
 
 const buttonError = { message: tabbableTemplate('button'), type };
 
-const recommendedOptions = configs.recommended.rules[`jsx-a11y/${ruleName}`][1] || {};
+const recommendedOptions = configs.recommended.rules[`mea/${ruleName}`][1] || {};
 
-const strictOptions = configs.strict.rules[`jsx-a11y/${ruleName}`][1] || {};
+const strictOptions = configs.strict.rules[`mea/${ruleName}`][1] || {};
 
 const alwaysValid = [
   { code: '<div />' },

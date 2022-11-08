@@ -1,4 +1,4 @@
-# jsx-a11y/autocomplete-valid
+# mea/autocomplete-valid
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```
 {
     "rules": {
-        "jsx-a11y/autocomplete-valid": [ 2, {
+        "mea/autocomplete-valid": [ 2, {
             "inputComponents": ["Input", "FormField"]
         }],
     }

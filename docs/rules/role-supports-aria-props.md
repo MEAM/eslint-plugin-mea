@@ -1,4 +1,4 @@
-# jsx-a11y/role-supports-aria-props
+# mea/role-supports-aria-props
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

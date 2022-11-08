@@ -1,4 +1,4 @@
-# jsx-a11y/aria-activedescendant-has-tabindex
+# mea/aria-activedescendant-has-tabindex
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

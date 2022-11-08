@@ -9,25 +9,18 @@
 // Rule Definition
 // ----------------------------------------------------------------------------
 
-import { dom } from 'aria-query';
-import includes from 'array-includes';
 import type { JSXIdentifier } from 'ast-types-flow';
-import has from 'has';
-import {
-  getLiteralPropValue, getProp, propName,
-} from 'jsx-ast-utils';
+import { propName } from 'jsx-ast-utils';
 import type { ESLintContext, ESLintVisitorSelectorConfig } from '../../flow/eslint';
 import type { ESLintJSXAttribute } from '../../flow/eslint-jsx';
-import getElementType from '../util/getElementType';
 
 const errorMessage = 'Interactive elements should have either an id or className attribute.';
-
 
 export default ({
   meta: {
     docs: {
       description: 'Require interactive elements to have either an id or className attribute.',
-      url: 'https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/HEAD/docs/rules/no-interactive-element-without-id-classname.md',
+      url: 'https://github.com/jsx-eslint/eslint-plugin-mea/tree/HEAD/docs/rules/no-interactive-element-without-id-classname.md',
     },
     schema: [{
       type: 'object',
@@ -50,7 +43,13 @@ export default ({
       }
 
       const otherAttributes = attribute.parent.attributes
-        .filter(({ name: { name }, value }) => ['id', 'className'].includes(name) && value && value.raw && value.raw.length > 2);
+        .filter((attr: any) => {
+          if (attr.type === 'JSXSpreadAttribute') {
+            return true;
+          }
+          const { name: { name }, value } = attr;
+          return ['id', 'className'].includes(name) && value && value.raw && value.raw.length > 2;
+        });
 
       if (otherAttributes.length === 0) {
         context.report({

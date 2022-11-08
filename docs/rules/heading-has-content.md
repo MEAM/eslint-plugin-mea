@@ -1,4 +1,4 @@
-# jsx-a11y/heading-has-content
+# mea/heading-has-content
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/heading-has-content": [ 2, {
+        "mea/heading-has-content": [ 2, {
             "components": [ "MyHeading" ],
           }],
     }

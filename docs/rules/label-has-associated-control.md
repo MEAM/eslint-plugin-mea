@@ -1,4 +1,4 @@
-# jsx-a11y/label-has-associated-control
+# mea/label-has-associated-control
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -52,7 +52,7 @@ And the configuration:
 ```json
 {
   "rules": {
-    "jsx-a11y/label-has-associated-control": [ 2, {
+    "mea/label-has-associated-control": [ 2, {
       "labelComponents": ["CustomInputLabel"],
       "labelAttributes": ["label"],
       "controlComponents": ["CustomInput"],
@@ -67,7 +67,7 @@ And the configuration:
 If the second `label` is in a different part of the HTML, then the second one can only contain `htmlFor` but not nesting. You will probably need eslint override comment on the second label.
 
 ```jsx
-{/* eslint jsx-a11y/label-has-associated-control: ["error", { assert: "either" } ] */}
+{/* eslint mea/label-has-associated-control: ["error", { assert: "either" } ] */}
 <label htmlFor="a">
   Username:
 </label>
@@ -92,7 +92,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
   "rules": {
-    "jsx-a11y/label-has-associated-control": [ 2, {
+    "mea/label-has-associated-control": [ 2, {
       "labelComponents": ["CustomLabel"],
       "labelAttributes": ["inputLabel"],
       "controlComponents": ["CustomInput"],

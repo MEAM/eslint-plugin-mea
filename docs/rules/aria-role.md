@@ -1,4 +1,4 @@
-# jsx-a11y/aria-role
+# mea/aria-role
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/aria-role": [ 2, {
+        "mea/aria-role": [ 2, {
             "allowedInvalidRoles": ["text"],
             "ignoreNonDOM": true
         }],

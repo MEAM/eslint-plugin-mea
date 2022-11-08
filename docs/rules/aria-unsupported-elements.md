@@ -1,4 +1,4 @@
-# jsx-a11y/aria-unsupported-elements
+# mea/aria-unsupported-elements
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

@@ -24,7 +24,7 @@ const domElements = [...dom.keys()];
 export default {
   meta: {
     docs: {
-      url: 'https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/HEAD/docs/rules/click-events-have-key-events.md',
+      url: 'https://github.com/jsx-eslint/eslint-plugin-mea/tree/HEAD/docs/rules/click-events-have-key-events.md',
       description: 'Enforce a clickable non-interactive element has at least one keyboard event listener.',
     },
     schema: [schema],

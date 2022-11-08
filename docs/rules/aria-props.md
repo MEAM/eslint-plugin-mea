@@ -1,4 +1,4 @@
-# jsx-a11y/aria-props
+# mea/aria-props
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

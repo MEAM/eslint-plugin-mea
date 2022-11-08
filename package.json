@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-mea",
-  "version": "6.6.1",
-  "description": "Static AST checker for accessibility rules on JSX elements.",
+  "version": "7.0.1",
+  "description": "Static AST checker for accessibility rules on JSX elements for MEA.",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -30,7 +30,6 @@
     "posttest": "aud --production",
     "test:ci": "npm run jest -- --ci --runInBand",
     "jest": "jest --coverage __tests__/**/*",
-    "jest2": "jest __tests__/src/rules/no-interactive-element-without-id-classname.js --silent=false",
     "pregenerate-list-of-rules": "npm run build",
     "generate-list-of-rules": "eslint-doc-generator --rule-doc-title-format prefix-name --rule-doc-section-options false --config-emoji recommended,☑️",
     "generate-list-of-rules:check": "npm run generate-list-of-rules -- --check"

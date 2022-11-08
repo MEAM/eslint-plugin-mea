@@ -391,7 +391,7 @@ const neverValid = [
   },
 ];
 
-const recommendedOptions = configs.recommended.rules[`jsx-a11y/${ruleName}`][1] || {};
+const recommendedOptions = configs.recommended.rules[`mea/${ruleName}`][1] || {};
 ruleTester.run(`${ruleName}:recommended`, rule, {
   valid: [
     ...alwaysValid,
@@ -466,7 +466,7 @@ ruleTester.run(`${ruleName}:recommended`, rule, {
     .map(parserOptionsMapper),
 });
 
-const strictOptions = configs.strict.rules[`jsx-a11y/${ruleName}`][1] || {};
+const strictOptions = configs.strict.rules[`mea/${ruleName}`][1] || {};
 ruleTester.run(`${ruleName}:strict`, rule, {
   valid: [
     ...alwaysValid,

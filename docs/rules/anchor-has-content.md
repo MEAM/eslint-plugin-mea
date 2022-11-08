@@ -1,4 +1,4 @@
-# jsx-a11y/anchor-has-content
+# mea/anchor-has-content
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/anchor-has-content": [ 2, {
+        "mea/anchor-has-content": [ 2, {
             "components": [ "Anchor" ],
           }],
     }

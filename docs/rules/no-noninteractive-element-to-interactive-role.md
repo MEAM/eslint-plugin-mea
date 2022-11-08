@@ -1,4 +1,4 @@
-# jsx-a11y/no-noninteractive-element-to-interactive-role
+# mea/no-noninteractive-element-to-interactive-role
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

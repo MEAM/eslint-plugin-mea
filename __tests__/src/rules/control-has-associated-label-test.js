@@ -19,7 +19,7 @@ import rule from '../../../src/rules/control-has-associated-label';
 
 const ruleTester = new RuleTester();
 
-const ruleName = 'jsx-a11y/control-has-associated-label';
+const ruleName = 'mea/control-has-associated-label';
 
 const expectedError = {
   message: 'A control must be associated with a text label.',

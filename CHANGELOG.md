@@ -237,14 +237,14 @@
 =================
 - 5650674 [new rule] control-has-associated-label checks interactives for a label
 - f234698 [docs] add How to manage IDs
-- 9924d03 [docs] document jsx-a11y/label-has-associated-control assert option
+- 9924d03 [docs] document mea/label-has-associated-control assert option
 - 77b9870 [docs] Add newlines below headings
 - 8244e43 [docs] Add syntax highlighting to example
 - 26f41c8 [docs] Change explanation for role="presentation" escape hatch
 - 33a1f94 [fix] - Purely decorative emojis do not need descriptions.
 - 29d20f7 [fix] (package): update emoji-regex to version 7.0.2
 - 0b63f73 [chore] (package): update flow-bin to version 0.88.0
-- baa1344 [fix] Disable jsx-a11y/label-has-for in recommended
+- baa1344 [fix] Disable mea/label-has-for in recommended
 - 2c5fb06 [chore] (package): update jscodeshift to version 0.6.0
 - 87debc0 [fix] corrected no-noninteractive-element-to-interactive-role.md file
 - d56265b [chore] (package): update flow-bin to version 0.87.0
@@ -252,7 +252,7 @@
 - f484ce3 [fix] No implicit role for `<img>` with `alt=""`
 - 6c33bcb [fix] Add select to the list of default control elements in label-has-associated-control
 - 011f8d9 [fix] Dialog and Alert roles can host keyboard listeners
-- 0f6a8af [fix] More easier `plugin:jsx-a11y/{recommended,strict}` configs
+- 0f6a8af [fix] More easier `plugin:mea/{recommended,strict}` configs
 - 3844248 [fix] Mark the replacement for label-has-for
 - 93265cb [fix] normalizedValues to values
 - 651366c [fix] Make aria-role case sensitive
@@ -346,12 +346,12 @@
 4.0.0 / 2017-02-04
 ==================
 Add new rules:
-- `jsx-a11y/accessible-emoji`
-- `jsx-a11y/aria-activedescendant-has-tabindex`
-- `jsx-a11y/iframe-has-title`
-- `jsx-a11y/no-autofocus`
-- `jsx-a11y/no-distracting-elements` *(breaking: consolidated no-marquee and no-blink into this rule.)*
-- `jsx-a11y/no-redundant-roles`
+- `mea/accessible-emoji`
+- `mea/aria-activedescendant-has-tabindex`
+- `mea/iframe-has-title`
+- `mea/no-autofocus`
+- `mea/no-distracting-elements` *(breaking: consolidated no-marquee and no-blink into this rule.)*
+- `mea/no-redundant-roles`
 - [fix] - redundant-alt to only check full words
 - [docs] - Documentation upgrades across the board.
 - [new] - Add `ignoreNonDom`
@@ -366,10 +366,10 @@ Add new rules:
 ==================
 - [breaking] - Update all rule schemas to accept objects. This allows a future schema expansion to not be a breaking change.
 - [breaking] - All rules with schemas that accepted a string OR array, now only allows an array.
-- [new] - `href-no-hash` accepts new schema property `specialLink` to check for custom `href` properties on elements. (fixes [#76](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/76))
+- [new] - `href-no-hash` accepts new schema property `specialLink` to check for custom `href` properties on elements. (fixes [#76](https://github.com/jsx-eslint/eslint-plugin-mea/issues/76))
 - [breaking][fix] - `img-has-alt` now prefers `alt=""` over `role="presentation"`. You can set both, but not just `role="presentation"` by itself to ensure a11y across all devices.
 
-Note - see [rule documentation](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/tree/HEAD/docs/rules) for updated schemas.
+Note - see [rule documentation](https://github.com/jsx-eslint/eslint-plugin-mea/tree/HEAD/docs/rules) for updated schemas.
 
 2.2.3 / 2016-10-08
 ==================

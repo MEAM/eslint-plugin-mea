@@ -7,12 +7,12 @@
     <img src="https://img.shields.io/npm/v/eslint-plugin-jsx-a11y.svg"
          alt="npm version">
   </a>
-  <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/LICENSE.md">
+  <a href="https://github.com/jsx-eslint/eslint-plugin-mea/blob/HEAD/LICENSE.md">
     <img src="https://img.shields.io/npm/l/eslint-plugin-jsx-a11y.svg"
          alt="license">
   </a>
   <a href='https://coveralls.io/github/jsx-eslint/eslint-plugin-jsx-a11y?branch=master'>
-    <img src='https://coveralls.io/repos/github/jsx-eslint/eslint-plugin-jsx-a11y/badge.svg?branch=master' alt='Coverage Status' />
+    <img src='https://coveralls.io/repos/github/jsx-eslint/eslint-plugin-mea/badge.svg?branch=master' alt='Coverage Status' />
   </a>
   <a href='https://npmjs.org/package/eslint-plugin-jsx-a11y'>
     <img src='https://img.shields.io/npm/dt/eslint-plugin-jsx-a11y.svg'
@@ -26,9 +26,9 @@
 
 Static AST checker for accessibility rules on JSX elements.
 
-#### _Read this in [other languages](https://github.com/ari-os310/eslint-plugin-jsx-a11y/blob/HEAD/translations/Translations.md)._
+#### _Read this in [other languages](https://github.com/ari-os310/eslint-plugin-mea/blob/HEAD/translations/Translations.md)._
 
-[Mexican Spanish🇲🇽](https://github.com/ari-os310/eslint-plugin-jsx-a11y/blob/HEAD/translations/README.mx.md)
+[Mexican Spanish🇲🇽](https://github.com/ari-os310/eslint-plugin-mea/blob/HEAD/translations/README.mx.md)
 
 ## Why?
 
@@ -75,17 +75,17 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "jsx-a11y/rule-name": 2
+    "mea/rule-name": 2
   }
 }
 ```
 
 You can also enable all the recommended or strict rules at once.
-Add `plugin:jsx-a11y/recommended` or `plugin:jsx-a11y/strict` in `extends`:
+Add `plugin:mea/recommended` or `plugin:mea/strict` in `extends`:
 
 ```json
 {
-  "extends": ["plugin:jsx-a11y/recommended"]
+  "extends": ["plugin:mea/recommended"]
 }
 ```
 
@@ -166,7 +166,7 @@ The following rules have extra options when in _recommended_ mode:
 ### no-interactive-element-to-noninteractive-role
 
 ```js
-'jsx-a11y/no-interactive-element-to-noninteractive-role': [
+'mea/no-interactive-element-to-noninteractive-role': [
   'error',
   {
     tr: ['none', 'presentation'],
@@ -177,7 +177,7 @@ The following rules have extra options when in _recommended_ mode:
 ### no-noninteractive-element-interactions
 
 ```js
-'jsx-a11y/no-noninteractive-element-interactions': [
+'mea/no-noninteractive-element-interactions': [
   'error',
   {
     handlers: [
@@ -195,7 +195,7 @@ The following rules have extra options when in _recommended_ mode:
 ### no-noninteractive-element-to-interactive-role
 
 ```js
-'jsx-a11y/no-noninteractive-element-to-interactive-role': [
+'mea/no-noninteractive-element-to-interactive-role': [
   'error',
   {
     ul: [
@@ -226,7 +226,7 @@ The following rules have extra options when in _recommended_ mode:
 ### no-noninteractive-tabindex
 
 ```js
-'jsx-a11y/no-noninteractive-tabindex': [
+'mea/no-noninteractive-tabindex': [
   'error',
   {
     tags: [],
@@ -238,7 +238,7 @@ The following rules have extra options when in _recommended_ mode:
 ### no-static-element-interactions
 
 ```js
-'jsx-a11y/no-noninteractive-element-interactions': [
+'mea/no-noninteractive-element-interactions': [
   'error',
   {
     handlers: [

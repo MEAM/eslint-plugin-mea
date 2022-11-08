@@ -1,4 +1,4 @@
-# jsx-a11y/no-redundant-roles
+# mea/no-redundant-roles
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -12,7 +12,7 @@ The default options for this rule allow an implicit role of `navigation` to be a
 
 ```js
 {
-  'jsx-a11y/no-redundant-roles': [
+  'mea/no-redundant-roles': [
     'error',
     {
       nav: ['navigation'],

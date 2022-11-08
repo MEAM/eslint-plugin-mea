@@ -37,7 +37,7 @@ export default function transformer(file, api, options) {
       }
       // Set default reporting to error.
       if (index === 1) {
-        path.parentPath.value.value.properties.unshift(j.property('init', j.literal(`jsx-a11y/${ruleName}`), j.literal('error')));
+        path.parentPath.value.value.properties.unshift(j.property('init', j.literal(`mea/${ruleName}`), j.literal('error')));
         path.parentPath.value.value.properties.sort(nameSort);
       }
     }).length;

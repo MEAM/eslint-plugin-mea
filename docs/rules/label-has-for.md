@@ -1,4 +1,4 @@
-# jsx-a11y/label-has-for
+# mea/label-has-for
 
 ❌ This rule is deprecated. It was replaced by [`label-has-associated-control`](label-has-associated-control.md).
 
@@ -24,7 +24,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/label-has-for": [ 2, {
+        "mea/label-has-for": [ 2, {
             "components": [ "Label" ],
             "required": {
                 "every": [ "nesting", "id" ]

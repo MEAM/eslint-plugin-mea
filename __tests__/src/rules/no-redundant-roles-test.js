@@ -24,7 +24,7 @@ const expectedError = (element, implicitRole) => ({
   type: 'JSXOpeningElement',
 });
 
-const ruleName = 'jsx-a11y/no-redundant-roles';
+const ruleName = 'mea/no-redundant-roles';
 
 const componentsSettings = {
   'jsx-a11y': {

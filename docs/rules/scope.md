@@ -1,4 +1,4 @@
-# jsx-a11y/scope
+# mea/scope
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 

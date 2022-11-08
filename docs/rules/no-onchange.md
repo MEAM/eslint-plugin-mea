@@ -1,4 +1,4 @@
-# jsx-a11y/no-onchange
+# mea/no-onchange
 
 ❌ This rule is deprecated.
 

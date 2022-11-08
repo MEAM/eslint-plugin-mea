@@ -1,4 +1,4 @@
-# jsx-a11y/no-autofocus
+# mea/no-autofocus
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -13,7 +13,7 @@ This rule takes one optional object argument of type object:
 ```json
 {
     "rules": {
-        "jsx-a11y/no-autofocus": [ 2, {
+        "mea/no-autofocus": [ 2, {
             "ignoreNonDOM": true
         }],
     }

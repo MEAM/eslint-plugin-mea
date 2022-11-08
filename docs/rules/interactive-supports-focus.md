@@ -1,4 +1,4 @@
-# jsx-a11y/interactive-supports-focus
+# mea/interactive-supports-focus
 
 💼 This rule is enabled in the following configs: ☑️ `recommended`, 🔒 `strict`.
 
@@ -60,7 +60,7 @@ This rule takes an options object with the key `tabbable`. The value is an array
 
 ```js
 {
-  'jsx-a11y/interactive-supports-focus': [
+  'mea/interactive-supports-focus': [
     'error',
     {
       tabbable: [

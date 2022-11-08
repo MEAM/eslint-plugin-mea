@@ -53,18 +53,18 @@ module.exports = {
         },
       },
       rules: {
-        'jsx-a11y/alt-text': 'error',
-        'jsx-a11y/anchor-ambiguous-text': 'off', // TODO: error
-        'jsx-a11y/anchor-has-content': 'error',
-        'jsx-a11y/anchor-is-valid': 'error',
-        'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
-        'jsx-a11y/aria-props': 'error',
-        'jsx-a11y/aria-proptypes': 'error',
-        'jsx-a11y/aria-role': 'error',
-        'jsx-a11y/aria-unsupported-elements': 'error',
-        'jsx-a11y/autocomplete-valid': 'error',
-        'jsx-a11y/click-events-have-key-events': 'error',
-        'jsx-a11y/control-has-associated-label': ['off', {
+        'mea/alt-text': 'error',
+        'mea/anchor-ambiguous-text': 'off', // TODO: error
+        'mea/anchor-has-content': 'error',
+        'mea/anchor-is-valid': 'error',
+        'mea/aria-activedescendant-has-tabindex': 'error',
+        'mea/aria-props': 'error',
+        'mea/aria-proptypes': 'error',
+        'mea/aria-role': 'error',
+        'mea/aria-unsupported-elements': 'error',
+        'mea/autocomplete-valid': 'error',
+        'mea/click-events-have-key-events': 'error',
+        'mea/control-has-associated-label': ['off', {
           ignoreElements: [
             'audio',
             'canvas',
@@ -91,11 +91,11 @@ module.exports = {
             'dialog',
           ],
         }],
-        'jsx-a11y/heading-has-content': 'error',
-        'jsx-a11y/html-has-lang': 'error',
-        'jsx-a11y/iframe-has-title': 'error',
-        'jsx-a11y/img-redundant-alt': 'error',
-        'jsx-a11y/interactive-supports-focus': [
+        'mea/heading-has-content': 'error',
+        'mea/html-has-lang': 'error',
+        'mea/iframe-has-title': 'error',
+        'mea/img-redundant-alt': 'error',
+        'mea/interactive-supports-focus': [
           'error',
           {
             tabbable: [
@@ -109,24 +109,24 @@ module.exports = {
             ],
           },
         ],
-        'jsx-a11y/label-has-associated-control': 'error',
-        'jsx-a11y/label-has-for': 'off',
-        'jsx-a11y/media-has-caption': 'error',
-        'jsx-a11y/mouse-events-have-key-events': 'error',
-        'jsx-a11y/no-access-key': 'error',
-        'jsx-a11y/no-autofocus': 'error',
-        'jsx-a11y/no-distracting-elements': 'error',
-        'jsx-a11y/no-interactive-element-without-id-classname': [
+        'mea/label-has-associated-control': 'error',
+        'mea/label-has-for': 'off',
+        'mea/media-has-caption': 'error',
+        'mea/mouse-events-have-key-events': 'error',
+        'mea/no-access-key': 'error',
+        'mea/no-autofocus': 'error',
+        'mea/no-distracting-elements': 'error',
+        'mea/no-interactive-element-without-id-classname': [
           'error',
         ],
-        'jsx-a11y/no-interactive-element-to-noninteractive-role': [
+        'mea/no-interactive-element-to-noninteractive-role': [
           'error',
           {
             tr: ['none', 'presentation'],
             canvas: ['img'],
           },
         ],
-        'jsx-a11y/no-noninteractive-element-interactions': [
+        'mea/no-noninteractive-element-interactions': [
           'error',
           {
             handlers: [
@@ -146,7 +146,7 @@ module.exports = {
             img: ['onError', 'onLoad'],
           },
         ],
-        'jsx-a11y/no-noninteractive-element-to-interactive-role': [
+        'mea/no-noninteractive-element-to-interactive-role': [
           'error',
           {
             ul: [
@@ -173,7 +173,7 @@ module.exports = {
             fieldset: ['radiogroup', 'presentation'],
           },
         ],
-        'jsx-a11y/no-noninteractive-tabindex': [
+        'mea/no-noninteractive-tabindex': [
           'error',
           {
             tags: [],
@@ -181,8 +181,8 @@ module.exports = {
             allowExpressionValues: true,
           },
         ],
-        'jsx-a11y/no-redundant-roles': 'error',
-        'jsx-a11y/no-static-element-interactions': [
+        'mea/no-redundant-roles': 'error',
+        'mea/no-static-element-interactions': [
           'error',
           {
             allowExpressionValues: true,
@@ -196,10 +196,10 @@ module.exports = {
             ],
           },
         ],
-        'jsx-a11y/role-has-required-aria-props': 'error',
-        'jsx-a11y/role-supports-aria-props': 'error',
-        'jsx-a11y/scope': 'error',
-        'jsx-a11y/tabindex-no-positive': 'error',
+        'mea/role-has-required-aria-props': 'error',
+        'mea/role-supports-aria-props': 'error',
+        'mea/scope': 'error',
+        'mea/tabindex-no-positive': 'error',
       },
     },
     strict: {
@@ -212,17 +212,17 @@ module.exports = {
         },
       },
       rules: {
-        'jsx-a11y/alt-text': 'error',
-        'jsx-a11y/anchor-has-content': 'error',
-        'jsx-a11y/anchor-is-valid': 'error',
-        'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
-        'jsx-a11y/aria-props': 'error',
-        'jsx-a11y/aria-proptypes': 'error',
-        'jsx-a11y/aria-role': 'error',
-        'jsx-a11y/aria-unsupported-elements': 'error',
-        'jsx-a11y/autocomplete-valid': 'error',
-        'jsx-a11y/click-events-have-key-events': 'error',
-        'jsx-a11y/control-has-associated-label': ['off', {
+        'mea/alt-text': 'error',
+        'mea/anchor-has-content': 'error',
+        'mea/anchor-is-valid': 'error',
+        'mea/aria-activedescendant-has-tabindex': 'error',
+        'mea/aria-props': 'error',
+        'mea/aria-proptypes': 'error',
+        'mea/aria-role': 'error',
+        'mea/aria-unsupported-elements': 'error',
+        'mea/autocomplete-valid': 'error',
+        'mea/click-events-have-key-events': 'error',
+        'mea/control-has-associated-label': ['off', {
           ignoreElements: [
             'audio',
             'canvas',
@@ -249,11 +249,11 @@ module.exports = {
             'dialog',
           ],
         }],
-        'jsx-a11y/heading-has-content': 'error',
-        'jsx-a11y/html-has-lang': 'error',
-        'jsx-a11y/iframe-has-title': 'error',
-        'jsx-a11y/img-redundant-alt': 'error',
-        'jsx-a11y/interactive-supports-focus': [
+        'mea/heading-has-content': 'error',
+        'mea/html-has-lang': 'error',
+        'mea/iframe-has-title': 'error',
+        'mea/img-redundant-alt': 'error',
+        'mea/interactive-supports-focus': [
           'error',
           {
             tabbable: [
@@ -269,16 +269,16 @@ module.exports = {
             ],
           },
         ],
-        'jsx-a11y/label-has-for': 'off',
-        'jsx-a11y/label-has-associated-control': 'error',
-        'jsx-a11y/media-has-caption': 'error',
-        'jsx-a11y/mouse-events-have-key-events': 'error',
-        'jsx-a11y/no-access-key': 'error',
-        'jsx-a11y/no-autofocus': 'error',
-        'jsx-a11y/no-distracting-elements': 'error',
-        'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
-        'jsx-a11y/no-interactive-element-without-id-classname': 'error',
-        'jsx-a11y/no-noninteractive-element-interactions': [
+        'mea/label-has-for': 'off',
+        'mea/label-has-associated-control': 'error',
+        'mea/media-has-caption': 'error',
+        'mea/mouse-events-have-key-events': 'error',
+        'mea/no-access-key': 'error',
+        'mea/no-autofocus': 'error',
+        'mea/no-distracting-elements': 'error',
+        'mea/no-interactive-element-to-noninteractive-role': 'error',
+        'mea/no-interactive-element-without-id-classname': 'error',
+        'mea/no-noninteractive-element-interactions': [
           'error',
           {
             body: ['onError', 'onLoad'],
@@ -286,14 +286,14 @@ module.exports = {
             img: ['onError', 'onLoad'],
           },
         ],
-        'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
-        'jsx-a11y/no-noninteractive-tabindex': 'error',
-        'jsx-a11y/no-redundant-roles': 'error',
-        'jsx-a11y/no-static-element-interactions': 'error',
-        'jsx-a11y/role-has-required-aria-props': 'error',
-        'jsx-a11y/role-supports-aria-props': 'error',
-        'jsx-a11y/scope': 'error',
-        'jsx-a11y/tabindex-no-positive': 'error',
+        'mea/no-noninteractive-element-to-interactive-role': 'error',
+        'mea/no-noninteractive-tabindex': 'error',
+        'mea/no-redundant-roles': 'error',
+        'mea/no-static-element-interactions': 'error',
+        'mea/role-has-required-aria-props': 'error',
+        'mea/role-supports-aria-props': 'error',
+        'mea/scope': 'error',
+        'mea/tabindex-no-positive': 'error',
       },
     },
   },
